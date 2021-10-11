@@ -77,6 +77,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void run(){
                 startButton.setText("Start");
+                downloadProgress.setVisibility(View.INVISIBLE);;
             }
         });
 
